@@ -19,3 +19,6 @@ document.querySelector('#react').addEventListener('mdl-componentupgraded', funct
 document.querySelector('#react-native').addEventListener('mdl-componentupgraded', function() {
     this.MaterialProgress.setProgress(60);
 });
+document.querySelector('#git').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(70);
+});
