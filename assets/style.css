@@ -75,6 +75,9 @@ section#body {
 .skills-item .mdl-cell--8-col {
     margin-top: 7px;
 }
+.skills-item__progress {
+    width: 100%;
+}
 .edu-item {
     display: flex;
     flex-direction: row;
