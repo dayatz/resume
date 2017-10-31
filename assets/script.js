@@ -11,14 +11,17 @@ document.querySelector('#dj').addEventListener('mdl-componentupgraded', function
     this.MaterialProgress.setProgress(90);
 });
 document.querySelector('#djr').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(95);
+    this.MaterialProgress.setProgress(90);
+});
+document.querySelector('#vue').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(70);
 });
 document.querySelector('#react').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(80);
+    this.MaterialProgress.setProgress(70);
 });
 document.querySelector('#react-native').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(60);
+    this.MaterialProgress.setProgress(40);
 });
 document.querySelector('#git').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setProgress(60);
 });
