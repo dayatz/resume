@@ -14,10 +14,10 @@ document.querySelector('#djr').addEventListener('mdl-componentupgraded', functio
     this.MaterialProgress.setProgress(90);
 });
 document.querySelector('#vue').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setProgress(60);
 });
 document.querySelector('#react').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(70);
+    this.MaterialProgress.setProgress(80);
 });
 document.querySelector('#react-native').addEventListener('mdl-componentupgraded', function() {
     this.MaterialProgress.setProgress(40);
